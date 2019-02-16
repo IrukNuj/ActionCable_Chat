@@ -60,3 +60,5 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'rubocop', require: false
 end
+
+gem 'bootstrap-sass'

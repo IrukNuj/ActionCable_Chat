@@ -3,12 +3,16 @@
 
 <form>
   投稿: <input type="text" />
-  <input type="submit" value="投稿" onClick="postChatMessage()" />
+  <button type="button" class="btn btn-primary" onClick="postChatMessage()">
+    投稿
+  </button>
 </form>
 
 <div id="chat">
   <div id="add-content">
-
   </div>
   <p><%= render @messages %></p>
 </div>
+
+
+<button type="button" class="btn btn-secondary">Secondary</button>

@@ -6,6 +6,7 @@ App.room = App.cable.subscriptions.create("RoomChannel", {
     },
 
     received: function (data) {
+        // alert(data['message']);
     },
 
     speak: function (message) {

@@ -1,11 +1,14 @@
 <h1>Rooms#show</h1>
 <p>Find me in app/views/rooms/show.html.erb</p>
 
-<div id="messages">
-  <%= render @messages %>
-</div>
-
 <form>
   投稿: <input type="text" />
   <input type="submit" value="投稿" onClick="postChatMessage()" />
 </form>
+
+<div id="chat">
+  <div id="add-content">
+
+  </div>
+  <p><%= render @messages %></p>
+</div>
